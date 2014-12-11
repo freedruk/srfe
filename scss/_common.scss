@@ -1,0 +1,12 @@
+.srfe {
+	&.center {
+		margin: 0 auto;
+	}
+
+	.row {
+		clear:both;
+		content:"";
+		display:block;
+		float:none !important;	
+	}
+}

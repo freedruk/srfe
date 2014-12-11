@@ -1,0 +1,31 @@
+.srfe {
+	width:1168px;
+
+	&.full {
+		width:100% !important;
+	}
+
+	&  * {
+		width:100%;
+		float:left;
+	}
+}
+
+@mixin srfe-half {		
+    width: 50%;
+}
+@mixin srfe-one-third {		
+    width: 33.33333%;
+}
+@mixin srfe-one-quarter {		
+    width: 25%;
+}
+@mixin srfe-two-thirds {
+    width:66.6666%;
+}
+@mixin srfe-three-quarters {
+    width: 75%;
+}	
+
+@import '_mediaqueries';
+@import '_common';
