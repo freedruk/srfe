@@ -1,19 +1,20 @@
-.srfe {
+%clearfix {
+	*zoom: 1;
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+	&:after { 
+		clear: both;
+	}
+}
+
+.srfe { 
+	.row {
+	  @extend %clearfix;
+	}
+
 	&.center {
 		margin: 0 auto;
 	}
-
-	.row:before,
-	.row:after {
-	    content: " ";
-	    display: table;
-	}
-
-	.row:after {
-	    clear: both;
-	}
-
-	.row {
-	    *zoom: 1;
-	}
-} 
+}
