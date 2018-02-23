@@ -1,84 +1,4 @@
-    @media only screen and (min-width : 320px) {
-        .srfe{
-            .xs-half {        
-                @include srfe-half;         
-            }
-            .xs-one-third {       
-                @include srfe-one-third;
-            }
-            .xs-one-quarter {     
-                @include srfe-one-quarter;    
-            }
-            .xs-two-thirds {
-                @include srfe-two-thirds;
-            }
-            .xs-three-quarters {
-                @include srfe-three-quarters;
-            } 
-        }       
-    }
-
-    @media only screen and (min-width : 480px) {
-        .srfe{
-            .xs-half {        
-                @include srfe-half;         
-            }
-            .xs-one-third {       
-                @include srfe-one-third;
-            }
-            .xs-one-quarter {     
-                @include srfe-one-quarter;    
-            }
-            .xs-two-thirds {
-                @include srfe-two-thirds;
-            }
-            .xs-three-quarters {
-                @include srfe-three-quarters;
-            }
-        }       
-    }
-
-    @media only screen and (min-width : 768px) {
-        .srfe{
-            .sm-half {        
-                @include srfe-half;         
-            }
-            .sm-one-third {       
-                @include srfe-one-third;
-            }
-            .sm-one-quarter {     
-                @include srfe-one-quarter;    
-            }
-            .sm-two-thirds {
-                @include srfe-two-thirds;
-            }
-            .sm-three-quarters {
-                @include srfe-three-quarters;
-            }
-        }        
-    }
-
-    @media only screen and (min-width : 992px) {
-        .srfe{
-            .md-half {        
-                @include srfe-half;         
-            }
-            .md-one-third {       
-                @include srfe-one-third;
-            }
-            .md-one-quarter {     
-                @include srfe-one-quarter;    
-            }
-            .md-two-thirds {
-                @include srfe-two-thirds;
-            }
-            .md-three-quarters {
-                @include srfe-three-quarters;
-            } 
-        } 
-    }
-
-    @media only screen and (min-width : 1200px) {
+    @media only screen and (max-width : 1200px) {
         .srfe{
             .lg-half {        
                 @include srfe-half;         
@@ -95,5 +15,106 @@
             .lg-three-quarters {
                 @include srfe-three-quarters;
             }
+            .lg-full-width {
+                @include srfe-full-width;
+            }
         }  
+    } 
+
+    @media only screen and (max-width : 992px) {
+        .srfe{
+            .md-half {        
+                @include srfe-half;         
+            }
+            .md-one-third {       
+                @include srfe-one-third;
+            }
+            .md-one-quarter {     
+                @include srfe-one-quarter;    
+            }
+            .md-two-thirds {
+                @include srfe-two-thirds;
+            }
+            .md-three-quarters {
+                @include srfe-three-quarters;
+            }
+            .md-full-width {
+                @include srfe-full-width;
+            } 
+        } 
     }
+
+    @media only screen and (max-width : 768px) {
+        .srfe{
+            .sm-half {        
+                @include srfe-half;         
+            }
+            .sm-one-third {       
+                @include srfe-one-third;
+            }
+            .sm-one-quarter {     
+                @include srfe-one-quarter;    
+            }
+            .sm-two-thirds {
+                @include srfe-two-thirds;
+            }
+            .sm-three-quarters {
+                @include srfe-three-quarters;
+            }
+            .sm-full-width {
+                @include srfe-full-width;
+            }
+        }        
+    }
+
+     @media only screen and (max-width : 480px) {
+        .srfe{
+            .xs-half {        
+                @include srfe-half;         
+            }
+            .xs-one-third {       
+                @include srfe-one-third;
+            }
+            .xs-one-quarter {     
+                @include srfe-one-quarter;    
+            }
+            .xs-two-thirds {
+                @include srfe-two-thirds;
+            }
+            .xs-three-quarters {
+                @include srfe-three-quarters;
+            }
+            .xs-full-width {
+                @include srfe-full-width;
+            }
+        }       
+    }              
+
+    @media only screen and (max-width : 320px) {
+        .srfe{
+            .xs-half {        
+                @include srfe-half;         
+            }
+            .xs-one-third {       
+                @include srfe-one-third;
+            }
+            .xs-one-quarter {     
+                @include srfe-one-quarter;    
+            }
+            .xs-two-thirds {
+                @include srfe-two-thirds;
+            }
+            .xs-three-quarters {
+                @include srfe-three-quarters;
+            }
+            .xs-full-width {
+                @include srfe-full-width;
+            } 
+        }       
+    }
+
+
+
+
+
+
